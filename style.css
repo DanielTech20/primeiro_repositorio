@@ -1,21 +1,122 @@
- * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* primeiro parametro é na vertical, segundo na horizontal */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
-    background-color: black;
+  padding: 15px 0;
+  background-color: black;
+  border-bottom: 3px solid #32b9cd;
+}
+ 
+.container {
+  width: 80%;
+  color: black;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.titulo {
+  color: #32b9cd;
+  font-size: 14px;
+}
 
-.container {
-    width: 80%;
-    color: white;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+.navegacao {
+  width: 350px;
+  color: #efb661;
+}
+
+.navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navegacao ul li {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.agora {
+  font-weight: bold;
+}
+
+/*CONTEÚDO DA PÁGINA*/
+
+/* BANNER */
+
+.banner {
+    background-image:url("./assets/img/bg-jelly-fish-para_outras_pags.png");
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.banner .container {
+    height: 350px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 36px;
+    width: 280px;
+}
+
+/* SOCIAL */
+.social {
+    margin: 50px 0;
+}
+
+.social .container {
+    justify-content: center;
+}
+
+.social .caixas {
+    display: flex;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.caixa h4 {
+    margin: 15px 0;
+    color: #e6005a;
+}
+
+.caixa p {
+    text-align: center;
+}
+
+.caixa img {
+    width: 170px;
+}
+
+/* RODAPÉ/FOOTER */
+
+footer {
+    background-color: #32b9cd;
+    padding: 45px 0;
+}
+
+footer .container {
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
 }
