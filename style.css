@@ -1,56 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-header {
-  padding: 15px 0;
-  background-color: black;
-  border-bottom: 3px solid #32b9cd;
-}
- 
-.container {
-  width: 80%;
-  color: black;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.titulo {
-  color: #32b9cd;
-  font-size: 14px;
-}
-
-.navegacao {
-  width: 350px;
-  color: #efb661;
-}
-
-.navegacao ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-.navegacao ul li {
-  font-size: 1rem;
-  cursor: pointer;
-}
-
-.agora {
-  font-weight: bold;
-}
-
 /*CONTEÚDO DA PÁGINA*/
 
 /* BANNER */
@@ -104,19 +51,4 @@ header {
 
 .caixa img {
     width: 170px;
-}
-
-/* RODAPÉ/FOOTER */
-
-footer {
-    background-color: #32b9cd;
-    padding: 45px 0;
-}
-
-footer .container {
-    justify-content: center;
-}
-
-footer p {
-    color: #fff;
 }
