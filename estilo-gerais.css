@@ -39,8 +39,8 @@ header {
 }
   
 .navegacao a {
-    font-size: 1rem;
-    cursor: pointer;
+    color: #efb661;
+    text-decoration: none;
 }
 
 .navegacao ul {
